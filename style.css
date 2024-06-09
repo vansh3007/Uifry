@@ -1,0 +1,574 @@
+
+.complete {
+    margin: 0;
+    padding: 0;
+    font-family: 'Clash Display', sans-serif;
+    width: 80vw;
+    margin-left: 10vw;
+    box-sizing: border-box;
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    width: 80vw;
+    font-weight: 500;
+}
+
+.links{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links ul li {
+    display: inline-flex;
+    margin-left: 2vw;
+    list-style: none;
+}
+
+.links li {
+    font-size: large;
+    font-weight: 500;
+}
+
+.links b {
+    color: #FF5555;
+}
+
+.navbar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+#check {
+    display: none;
+}
+
+
+
+
+
+
+/* Background Image */
+.back-img{
+    position: absolute;
+    top: 3vh;
+    z-index: -1;
+    left: 20vw;
+}
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left{
+    width: 50vw;
+    margin-top: 20vh;
+}
+
+.hero-left h1{
+    font-weight: 1000;
+    font-size: 4rem;
+}
+
+.hero-left h4{
+    opacity: 0.5;
+}
+
+.hero-left button{
+    background-color: white;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero-right{
+    display: flex;
+}
+
+.front2{
+    z-index: -1;
+    margin-top: 10vh;
+    position: absolute;
+    right: -8vw;
+}
+
+.star3{
+    position: absolute;
+    left: 5vw;
+}
+
+.star8{
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+}
+
+.ellipse2{
+    z-index: -1;
+    position: relative;
+    bottom: 10vh;
+}
+
+/* Hero 2 Section */
+.hero2{
+    display: flex;
+}
+
+.hero2-left{
+    width: 40vw;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    right: 10vw;
+    bottom: 20vh;
+}
+
+.ellipse1{
+    z-index: -1;
+    position: absolute;
+    right: 8vw;
+    top: 10vh;
+}
+
+.star0{
+    z-index: -1;
+    position: absolute;
+    left: 1vw;
+    top: 10vh;
+}
+
+.hero2-right{
+    width: 50vw;
+}
+
+.hero2-right h1{
+    font-weight: 1000;
+}
+
+.hero2-right h6{
+    color: #FF5555;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hero2-right i{
+    color: #FF5555;
+    font-size: 1.5rem;
+}
+
+.hero2-right p{
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.ellipse3{
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+}
+
+/* Hero 3 Section */
+.hero3{
+    display: flex;
+    margin-bottom: -40vh;
+}
+
+.ellipse4{
+    z-index: -1;
+    position: absolute;
+    right: 10vw;
+}
+
+.front3{
+    position: relative;
+    bottom: 25vh;
+    left: 10vw;
+}
+
+/* Hero 4 Section */
+.hero4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40vh;
+}
+
+.hero4-left{
+    display: flex;
+}
+
+.hero4-right{
+    width: 30vw;
+    margin-top: 40vh;
+}
+
+.hero4-right h3,
+.hero3-left h3{
+    font-weight: 900;
+}
+
+.hero4-right p{
+    opacity: 0.5;
+}
+
+.front4{
+    z-index: 0;
+    position: absolute;
+    left: 0vw;
+}
+
+.ellipse5{
+    z-index: -1;
+    position: absolute;
+}
+
+/* Review Section */
+.review-heading{
+    text-align: center;
+}
+
+.review-heading h3{
+    opacity: 0.8;
+}
+
+.review-heading h1{
+    font-weight: 1000;
+}
+
+.review{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30vh;
+}
+
+.ellipse6{
+    margin-top: 20vh;
+    position: absolute;
+    left: 0vw;
+}
+
+/* FAQ Section */
+.faq{
+    display: flex;
+    margin-bottom: 20vh;
+    gap:2vw;
+}
+
+.mass1,
+.mass2{
+    width: 35vw;
+    padding: 20px 20px;
+}
+
+.mass1{
+    background-color: #FF5555;
+    border-radius: 10px;
+    color: white;
+}
+
+.faq-heading h5{
+    color: #FF5555;
+}
+
+.faq-heading h1{
+    font-weight: 1000;
+}
+
+/* Photo Section */
+.photo{
+    width: 80vw;
+    margin-bottom: 20vh;
+}
+
+.ellipse7{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    margin-top: -30vh;
+}
+
+/* Footer Section */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.footer h3{
+    font-weight: 700;
+}
+
+.footer h6{
+    margin-top: 2vh;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.footer button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer input{
+    width: 9vw;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+/* Stars */
+.star1, .star2, .star6, .star5, .star61, .star7, .star11, .star9, .star81, .star10{
+    z-index: -1;
+    position: relative;
+}
+
+.star1{
+    left: 40vw;
+}
+
+.star2{
+    left: 20vw;
+}
+
+.star6{
+    left: 30vw;
+    bottom: 20vh;
+}
+
+.star5{
+    left: 50vw;
+    bottom: 10vh;
+}
+
+.star61{
+    left: 30vw;
+}
+
+.star7{
+    left: 70vw;
+    bottom: 10vh;
+}
+
+.star11{
+    left: 40vw;
+    bottom: 10vh;
+}
+
+.star9{
+    left: 0vw;
+    bottom: 10vh;
+}
+
+.star81{
+    left: 80vw;
+}
+
+.star10{
+    left: -9vw;
+    top: 30vh;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .complete {
+        width: 100vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .navbar {
+        width: 90vw;
+    }
+    .front2{
+        right: -25vw;
+    }
+
+    .hero-left {
+        width: 60vw;
+        margin-top: 15vh;
+    }
+
+    .hero-left h1 {
+        font-size: 3rem;
+    }
+    .hero2{
+        margin-top: -30vh;
+        position: relative;
+        left:5vw;
+    }
+
+    .hero2-left {
+        width: 50vw;
+        bottom: 15vh;
+    }
+
+    .hero2-right {
+        width: 45vw;
+    }
+
+    .mass1, .mass2 {
+        width: 50vw;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 800px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar ul {
+        position: fixed;
+        width: 80%;
+        height: 60vh;
+        top: 80px;
+        left: 100%;
+        background-color:gainsboro;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+
+    .navbar button{
+
+        position: fixed;
+        width: 80%;
+        height: 20vh;
+        top: 410px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #check:checked ~ .links ul,
+    #check:checked ~ .links button {
+        left: 10%;
+    }
+
+    .nav-left, .nav-right {
+        width: 100%;
+    }
+
+    .hero-section,.hero2,.hero3,.hero4,.review{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20vh;
+    }
+
+    .hero-left, .hero-right, .hero2-left, .hero2-right, .hero3-left, .hero3-right, .hero4-left, .hero4-right, .review-left, .review-right,.photo{
+        width: 100%;
+    }
+    .hero-left {
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 2.5rem;
+    }
+    .hero2-left {
+        width: 100%;
+        right: 0;
+        bottom: 10vh;
+    }
+
+    .hero2-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .complete {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .navbar {
+        margin-top: 1vh;
+    }
+
+    .nav-left, .nav-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-left {
+        margin-bottom: 1vh;
+    }
+
+    .hero-left {
+        margin-top: 5vh;
+    }
+
+    .hero-left h1 {
+        font-size: 2rem;
+    }
+
+    .hero2-left, .hero2-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero2-left {
+        bottom: 5vh;
+    }
+
+    .review {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mass1, .mass2 {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer input {
+        width: 70%;
+    }
+}
